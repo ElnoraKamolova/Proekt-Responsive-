@@ -1,0 +1,287 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <link rel="stylesheet" href="./assets/styles/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> 
+    <title>Responsive vs Adaptive</title> 
+</head> 
+
+<body class="bg-[#202C36] font-Nunito text-white"> 
+    <header class="bg-[#2B3844]"> 
+        <nav class="flex justify-between container mx-auto max-w-[80%] py-6"> 
+            <a href="" class=" font-extrabold text-[15px] sm:text-[25px]">
+                Where in the world? 
+            </a> 
+            
+            <button class="flex gap-2 items-center "> 
+                <img src="./assets/images/Path.png" alt=""> 
+                <span>Dark Mode</span> 
+            </button> 
+        </nav> 
+    </header> 
+    
+    <main class="py-10"> 
+        <section class="container mx-auto max-w-[80%]"> 
+            <form class="relative flex" action=""> 
+                <input type="text" 
+                class="bg-[#2B3844] drop-shadow-md py-[18px] w-full max-w-[480px] rounded-lg pl-[72px] placeholder:text-white" 
+                placeholder="Search for a country…"> 
+                <img src="./assets/images/icon-search-white.png" 
+                class="size-[18px] absolute top-1/2 -translate-y-1/2 left-[32px]" alt=""> 
+            </form> 
+        </section> 
+        
+        <section class="container mx-auto max-w-[80%] justify-between flex flex-wrap mt-[48px] gap-x-[2%] gap-y-[75px]"> 
+            
+            <a class="justify-center items-center flex mx-auto" href="./germany.html">
+                <div class="card bg-[#2B3844] rounded-lg mx-auto  w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg.png" class="w-full h-full max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Germany</p> 
+ 
+                    <ul> 
+                        <li cl> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">81,770,900</span> 
+                            </p> 
+                        </li> 
+ 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Europe</span> 
+                            </p> 
+                        </li> 
+ 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Berlin</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            </a>
+            
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto w-[267px] h-[324px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg.png.png" class="w-full h-full  max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">United States of America</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">323,947,000</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Americas</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Washington, D.C.</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg (2).png" class="w-full h-full max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Brazil</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">206,135,893</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Americas</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Brasília</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto  w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg (3).png" class="w-full h-full max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Iceland</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">334,300</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Europe</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Reykjavík</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto  w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg (4).png" class="w-full h-full max-h-[160px]" alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Afghanistan</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">27,657,145</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Asia</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Kabul</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto  w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg (5).png" class="w-full h-full max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Åland Islands</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">28,875</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Europe</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <spanv class="font-extralight">Mariehamn</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto  w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg (6).png" class="w-full h-full max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Albania</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight"> 2,886,026</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Europe</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Tirana</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+            
+            <div class="card bg-[#2B3844] rounded-lg mx-auto  w-[267px]  overflow-hidden"> 
+                <img src="./assets/images/1280px-Flag_of_Germany.svg (7).png" class="w-full h-full max-h-[160px] " alt=""> 
+                <div class="p-[24px]"> 
+                    <p class="font-bold text-lg mb-4">Algeria</p> 
+                    
+                    <ul> 
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Population:</span> 
+                                <span class="font-extralight">40,400,000</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Region:</span> 
+                                <span class="font-extralight">Africa</span> 
+                            </p> 
+                        </li> 
+                        
+                        <li> 
+                            <p> 
+                                <span class="font-semibold">Capital:</span> 
+                                <span class="font-extralight">Algiers</span> 
+                            </p> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </section>
+    </main>
+</body>
+</html>
